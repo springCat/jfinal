@@ -1,5 +1,37 @@
-*.bak
+# maven #
+target
+
+logs
+
+# eclipse #
+.settings
+.project
+.classpath
+.log
+
+# windows #
+Thumbs.db
+
+# Mac #
+.DS_Store
+
+# Package Files #
+*.war
+*.ear
+
+# idea #
+.idea
+*.iml
+
+plan.txt
+
 *.class
+
+# Package Files #
+*.jar
+
+
+*.bak
 *.tmp
 *.log
 /bin/
@@ -8,11 +40,19 @@ integration-repo
 /build/
 
 # IDEA metadata and output dirs
-*.iml
 *.ipr
 *.iws
-out
 
-*.jar
 /webapp/WEB-INF/classes/
+/webapp/WEB-INF/test-classes/
 /webapp/WEB-INF/target/
+
+a_little_config_pro.txt
+
+dev_plan.txt
+
+
+
+
+
+
